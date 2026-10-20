@@ -1,0 +1,15 @@
+# Environment variables
+.env
+.env.*
+*.env
+!.env.example
+
+# Binaries
+*.exe
+bin/
+stockpilot-api
+
+# Test artifacts
+*.test
+*.prof
+*.out

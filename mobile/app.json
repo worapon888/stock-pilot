@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "StockPilot",
+    "slug": "stockpilot",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F7FAFE"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.stockpilot.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#F7FAFE",
+        "foregroundImage": "./assets/splash-icon.png"
+      },
+      "splash": {
+        "backgroundColor": "#F7FAFE",
+        "image": "./assets/splash-icon.png",
+        "resizeMode": "contain"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#F7FAFE",
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 180,
+          "resizeMode": "contain"
+        }
+      ],
+      "expo-secure-store"
+    ]
+  }
+}
